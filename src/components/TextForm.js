@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 export default function TextForm(props) {
     const countWords = (text) => {
-        let newText = text.split(/[ ]+/)
+        let newText = text.split(/\s+/)
         if(newText[newText.length - 1] === ""){
             return newText.length - 1
         }

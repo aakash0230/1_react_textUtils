@@ -8,3 +8,7 @@ footer {
     height: 30px;   /*Height of the footer*/
     background: rgba(12, 26, 224, 0.842);
  }
+
+ .accordion-button::after{
+    filter : invert(1);
+ }
